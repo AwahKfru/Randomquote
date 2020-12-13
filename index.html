@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1 style="color: royalblue; text-align: center">Quote Generator</h1>
+    </div>
+    
+    <div>
+        <div class="btn-group" data-toggle="buttons">
+            <label class="btn btn-primary active">
+                <input type="radio" name="quote" id="life" autocomplete="off" checked>Life Quote</input>
+            </label> 
+            <label class="btn btn-primary">
+                <input type="radio" name="quote" id="inspi" autocomplete="off">Inspirational Quote</input>
+            </label>
+            <div id="container"></div>
+            <br>
+            <div>
+                <label>Number of quotes</label>
+                <select id="num">
+                    <option value = "1">1</option>
+                    <option value = "2">2</option>
+                    <option value = "3">3</option>
+                    <option value = "4">4</option>
+                    <option value = "5">5</option>
+                </select>
+            </div>
+         <!--   <label class="btn btn-primary">
+                <input type=" radio" name="" id=" " autocomplete="off ">
+            </label>-->
+        </div>
+    </div>
+    <div style="margin-left:6rem; "><button id="prompt" type="button" onclick="generate">Click to generate quote</div>
+</body>
+<script src='Randomtextgen-1.js'></script>
+</html>
